@@ -1,0 +1,28 @@
+@media (max-width: 1000px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+  }
+  header nav {
+    padding: 10px 0px;
+  }
+  .filme-principal {
+    height: 400px;
+  }
+}
+@media (max-width: 419px) {
+  .filme-principal {
+    padding: 5px;
+  }
+  .titulo {
+    font-size: 25px;
+  }
+  .botao {
+    width: 180px;
+    padding: 10px;
+  }
+}
